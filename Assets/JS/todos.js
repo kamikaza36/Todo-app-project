@@ -11,7 +11,7 @@ $("ul").on("click", "span", (function(){
     event.stopPropagation();
 }));
 
-//kreiranje todo
+//create todo
 $("input[type='text'").keypress(function(event){
     if(event.which === 13){
         //spremamo input u varijablu
@@ -22,7 +22,7 @@ $("input[type='text'").keypress(function(event){
     }
 });
 
-//toglanje
+//toggle todo
 $(".fa-plus").click(function(){
     $("input[type=text").fadeToggle();
 });
